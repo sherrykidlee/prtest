@@ -1,3 +1,5 @@
+import qf
+
 q4 = ('select sp.project_id, sp.project_name, count(*) as pr_count '
       'from `learning.ght.sample_python` sp inner join `ghtorrent-bq.ght.pull_requests` pr '
       'on pr.base_repo_id = sp.project_id '
